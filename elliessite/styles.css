@@ -1,0 +1,49 @@
+
+
+body {
+    color:darkgrey;
+    font: size 1.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+    width: 700px;
+    margin: auto;
+    padding: 20x;
+}
+
+p{
+   line-height:1.5em;
+}
+h1, h2 {
+font-family: 'Times New Roman', Times, serif;
+background-color: rgb(204, 192, 215);
+color:rgb(149, 169, 186);
+padding: 10px;
+text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li a {
+    display: block;
+    background-color: rgb(118, 23, 45);
+    color: whitesmoke;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 20px;
+    border: 5px solid rgb(11, 1, 1);
+    margin-bottom: 5px;
+}
+
+Nav ul li ul li a {
+    display: block;
+    background-color: rgb(181, 34, 68);
+    color: whitesmoke;
+    font-family: Arial;
+    font-style: italic;
+    padding: 50px;
+    border: 5px solid rgb(11, 1, 1);
+    margin-bottom: 5px;
+}
